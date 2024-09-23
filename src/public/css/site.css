@@ -1,0 +1,583 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans JP";
+    width: 100%;
+}
+
+a[target=_blank] {
+	padding-right: 20px;
+	background: url(../img/link-out-3.webp) right center/11px auto no-repeat;
+}
+
+.slide {
+    overflow: visible;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    padding-top: 18px;
+    margin-bottom: 18px;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    background-color: white;
+    top: 0%;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-letter {
+    display: flex;
+    align-items: center;
+    color: #0071BC;
+}
+
+.header-li {
+    display: flex;
+}
+
+.header-SNSicon {
+    margin-left: 20px;
+}
+
+.header-icon-img {
+    width: 50px;
+    height: 50px;
+}
+
+.header-li-1 {
+    padding-left: 20px;
+}
+
+.main-img {
+    background-image: url(../img/bg-mainvisual.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.SCROLL {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.main-tittle {
+    background-color: rgba(255, 255, 255, 0.9); /* Optional: add a background for better visibility */
+    padding: 5px;
+    color: dodgerblue;
+    width: 100%;
+}
+
+.main-index {
+    background-color: rgba(255, 255, 255, 0.9); /* Optional: add a background for better visibility */
+    padding: 15px;
+    margin: 15px auto;
+    font-size: 40px;
+    font-weight: 1000;
+    width: 100%;
+}
+
+.footer-icon {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-index {
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul li a img {
+    width: 40px;
+}
+
+.small {
+    text-align: center;
+    padding: 10px;
+}
+
+.hr {
+    height: 1px;
+    border-width: 0;
+    background-color: gray;
+    margin: 5px;
+}
+
+.section1 {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.main_index {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.main_tittle {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.main_img {
+    width: 470px;
+    border-radius: 3%;
+}
+
+.main_index2 {
+    width: 500px;
+    padding: 50px 0px 0px 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.main_sub_tittle {
+    text-align: center;
+    color: dodgerblue;
+    margin-bottom: 40px;
+}
+
+.main {
+    padding-bottom: 100px;
+}
+
+
+/* ここからイベント */
+.section2 {
+    margin-top: 80px;
+}
+.section2-index {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+section div h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+section div h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.section-p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.section2-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2-block2 {
+    width: 320px;
+    max-height: 400px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5%;
+    background-color: rgba(222, 222, 222, 0.3);
+}
+
+.section2-black-img {
+    width: 100%;
+    height: 66%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+section ul li h4 {
+    color: white;
+    background-color: rgb(53, 102, 182);
+    border-radius: 5em;
+    width: 100px;
+    margin: 10px auto;
+}
+
+section ul li h2 {
+    margin: 20px;
+    font-weight: bold;
+}
+
+.section3 {
+    margin-top: 80px;
+}
+
+.section3_sp {
+    color: rgb(53, 102, 182);
+    font-size: 60px;
+    margin-right: 5%;
+}
+
+.section3_tittle {
+    font-weight: 600;
+    font-size: 26px;
+    margin-left: 10%;
+}
+
+.section3_img {
+    width: 530px;
+    height: 391px;
+    border-radius: 3%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-top: -5%;
+}
+
+.section3_img2 {
+    width: 530px;
+    height: 391px;
+    border-radius: 3%;
+    margin-bottom: 5%;
+    margin-left: -20%;
+    margin-top: -5%;
+}
+
+.section3_subtittle {
+    font-weight: 600;
+}
+
+
+.section3_li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(222, 222, 222, 0.3);
+    margin: 8% 15% 8% 15%;
+    border-radius: 3%;
+    height: auto;
+    width: 65%;
+}
+
+.section3_li2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(222, 222, 222, 0.3);
+    margin: 8% 15%;
+    border-radius: 3%;
+    height: auto;
+    width: 65%;
+    flex-direction: row-reverse;
+}
+
+.section3_index {
+    margin: 8%;
+    width: 300px;
+}
+
+/* ここから公式ライン */
+.section4 {
+    background-image: url(../img/bg-cta.jpg);
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat; /* 画像を繰り返さない */
+}
+.section4_ul {
+    padding: 2%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4_index {
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    line-height: 30px;
+
+}
+
+.section4_link {
+    color: rgb(53, 102, 182);
+    background-color: white;
+    width: 20%;
+    font-size: 16;
+    margin: auto;
+    border-radius: 5rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4_link:hover {
+    background: #0071BC;
+    color: white;
+    border: 1px solid white;
+}
+
+.section4_img {
+    width: 30px;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.section4_tittle {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+
+/* スマホ */
+@media screen and (max-width:740px) {
+
+    .section-p {
+        text-align: unset;
+        line-height: 1.5;
+        font-size: 18px;
+        margin-bottom: 20px;
+        padding: 0 70px;
+    }
+
+    .main-img {
+        background-image: url(../img/sp/bg-mainvisual.jpg);
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .section4 {
+        background-image: url(../img/sp/bg-cta.jpg);
+        height: 335px;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .header-nav {
+        visibility: hidden; 
+        position: relative;
+    }
+
+    .header-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        padding: 10px;
+        position: absolute;
+        right: 5%;
+    }
+    
+    .header-buttonLine {
+        width: 42px;
+        height: 3px;
+        background-color: dodgerblue;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+
+    .section2-index {
+        width: 70%;
+        margin: auto;
+    }
+
+    
+
+
+}
+
+/* タブレット */
+@media screen and (max-width:1400px){
+    .main_index {
+        display: block; 
+        width: 100%; 
+    }
+
+    .main_img, .main_index2 {
+        width: 60%;
+        margin-bottom: 20px; 
+        margin: auto;
+        /* margin: 0 20px; */
+        /* padding: 0; */
+    }
+    
+
+    .main_img {
+        text-align: center;
+    }
+
+    .SCROLL {
+        display: none;
+    }
+
+    .main-tittle {
+        font-size: 20px;
+    }
+
+    .section3_ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .section3_li {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        background-color: rgba(222, 222, 222, 0.3);
+        border-radius: 3%;
+        height: auto;
+        width: 55%;
+        padding-bottom: 10px;
+        
+    }
+    
+    .section3_li2 {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        background-color: rgba(222, 222, 222, 0.3);
+        border-radius: 3%;
+        height: auto;
+        width: 55%;
+        padding-bottom: 10px;
+    }
+
+    .section3_img {
+        width: 100%;
+        height: 100%;
+        border-radius: 3%;
+        margin-bottom: 5%;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    
+    .section3_img2 {
+        width: 100%;
+        height: 100%;
+        border-radius: 3%;
+        margin-bottom: 5%;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+
+    .section3_sp {
+        color: rgb(53, 102, 182);
+        font-size: 30px;
+        margin-right: 5%;
+    }
+    
+    .section3_tittle {
+        font-weight: 600;
+        font-size: 13px;
+        margin-left: 10%;
+    }
+
+    .section3_index {
+        margin: 8%;
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .splide {
+        margin: 2rem auto;
+    }
+
+}
+
+.is_open {
+    position: fixed;
+    inset: 0;
+    background-color: #F7F9FB; 
+    opacity: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    }
+
+.header.is_open .header-buttonLine:nth-of-type(1) {
+    transform: translateX(-40%) rotate(45deg);
+    position: fixed;
+    top: 30px;
+}
+
+.header.is_open .header-buttonLine:nth-of-type(2) {
+    opacity: 0;
+}  
+    
+.header.is_open .header-buttonLine:nth-of-type(3) {
+    transform: translateX(-40%) rotate(-45deg);
+    position: fixed;
+    top: 30px;
+}
+
+
+/*  */
+.header.is_open .header-nav {
+    visibility: visible;
+    display: block;
+}
+
+.header.is_open .header-li {
+    justify-content: center;
+}
+
+.header_info {
+    display: none;
+}
+
+.header.is_open .header_info {
+    display: inline;
+    justify-content: center;
+}
+
+.header.is_open .header_info_li {
+    text-align: center;
+}
+
+.header.is_open .header-ctaLink {
+    color: #0071BC;
+    text-align: center;
+}
+
+.header.is_open .header-ctaLink::before {
+    background-image: url(./sample-ph1-website-sample-assets/assets/img/icon-line.svg);
+}
+
+.header.is_open .header-nav-letter {
+    flex-direction: column;
+}
